@@ -1,0 +1,112 @@
+/* body{
+    background-color: powderblue;
+} */
+.contain{
+    background-image: url(https://images.immediate.co.uk/production/volatile/sites/2/2018/08/Peanut-butter-pancakes-78d1366.jpg?quality=45&crop=387px,2234px,5100px,3398px&resize=620,413);
+    background-repeat: no-repeat;
+    background-position: center;   
+    height: 100vh;
+    /* width: max-content; */
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text{
+    text-align: center;
+    font-family: monospace;
+    color: aliceblue;
+    font-weight: bolder;
+}
+.text2{
+text-align: center;
+font-family: monospace;
+color: aliceblue;
+font-weight: bolder;
+font-size: 50px;
+text-shadow: 5px black;
+}
+.in{
+ /* text-align: center; */
+font-family: monospace;
+color: aliceblue;
+font-size: 25px;
+text-align: left !important;
+margin-bottom: 0px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input{
+    border-radius: 20px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.button_code{
+    border-radius: 40px !important;
+    width: fit-content;
+    text-align: center;
+
+}
+.image_holder{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem ;
+}
+
+.text_holder{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem ;
+}
+.text_holder p{
+    text-align: center;
+}
+@media (max-width: 770px) {
+    .tab2{
+        font-size: 12px;
+}
+
+
+}
+
+@media (max-width: 575px) {
+    .tab1{
+        width: 90% !important;
+        padding: 12px;
+    }
+    .tab2{
+        font-size: 14px !important;
+        
+    }
+    /* body{ */
+        /* background-color: blue !important; */
+    /* } */
+    
+    .text_holder{
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .image_holder{
+        flex-direction: column;
+        padding: 10px;
+        
+    }
+
+    .holder{
+        display: flex;
+        flex-direction: row;
+    }
+}
