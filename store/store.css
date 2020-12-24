@@ -1,0 +1,131 @@
+
+
+.a  {
+    font-style: italic;
+    color:pink;
+    margin-left: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.a + div{
+    margin-left: 11px;
+}
+
+.a :hover  {
+    color: black;
+}
+
+
+.header {
+    height: 60px;
+    display: flex;
+    justify-items: auto;
+    align-self: center;
+}
+
+
+.home {
+    height: 50px;
+    cursor: pointer;
+    margin: 6px 0 0 5px;
+
+}
+
+.wall  {
+    background-image: url("https://img5.goodfon.com/wallpaper/nbig/b/84/ponchiki-glazur-ponchik-desert-vypechka.jpg");
+    height: 92vh;
+    /* width: 140vh; */
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top-style:  solid;
+    border-top-color: lightcoral;
+    border-bottom-style:  solid;
+    border-bottom-color: lightcoral;
+    
+}
+
+.pic {
+    /* display: flex; */
+    position: absolute;
+   
+
+}
+
+.b  {
+    font-size: 37px;
+    font-weight: 600;
+    margin-left: -150px;
+    margin-top: 10px;
+    font-style: italic;
+    
+}
+.c  {
+    border-style: solid;
+    border-color: black;
+    font-style: italic;
+}
+
+.c:hover {
+    background-color: black;
+    color: palevioletred;
+
+}
+
+.d  {
+    height: 500px;
+    display: flex;
+    /* justify-content: center; */
+    border-bottom-style:  solid;
+    border-bottom-color: lightcoral;
+
+}
+
+.us {
+    font-size: 50px;
+    margin: 44px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: lightcoral;
+
+}
+.about  {
+    width: 60%;
+    margin: 35px 0 0px 160px;
+
+}
+
+.pic2{
+    height: 300px;
+    width: 300px;
+    margin: 94px 152px 0 0px
+
+}
+
+.e  {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.f  {
+    width: 100px;
+    margin: 35px 0 0px 160px;
+
+}
+
+.g {
+    height: 10px;
+}
+.pic2 :hover  {
+    borde
+
+
+}
+
+
