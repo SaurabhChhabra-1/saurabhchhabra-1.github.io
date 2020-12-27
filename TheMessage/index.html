@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pass the message</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+  </head>
+  <body>
+    <div class="background">
+      <div class="a mb-5">A Message You Would Like To Pass</div>
+
+      <input type="text" id="text" class="box mb-4" />
+
+      <button
+        type="button"
+        onclick="myfunction()"
+        class="c btn-lg btn btn-info mb-4"
+      >
+        Submit
+      </button>
+
+      <div id="error">Please Enter A Value To Pass</div>
+
+      <b><div class="d mb-4">Last Message Delivered</div></b>
+
+      <div id="result" class="mb-5">Hello</div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
