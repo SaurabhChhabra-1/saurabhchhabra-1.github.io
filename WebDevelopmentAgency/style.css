@@ -1,0 +1,137 @@
+body {
+  margin: 0cm;
+  /* height: 600px; */
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 520px;
+  /* width: 100%; */
+  padding: 0 40px;
+}
+
+.bgimage {
+  height: 520px;
+  width: 100%;
+  background-image: url(https://static.pexels.com/photos/248515/pexels-photo-248515.png);
+  position: absolute;
+  filter: blur(3px);
+  /* backdrop-filter: b; */
+}
+
+.imgcontent {
+  text-align: center;
+}
+
+.heading {
+  color: honeydew;
+  backdrop-filter: blur(0px);
+  /* margin-top: 20%; */
+
+  /* filter: none; */
+}
+
+.para {
+  margin: 0cm;
+}
+
+.btn {
+  /* margin-left: 50%; */
+  margin-top: 50px;
+  backdrop-filter: blur(0px);
+  background-color: #333333;
+  color: aliceblue;
+  /* filter: blur(1px); */
+  height: 50px;
+  border: 1px solid #666666;
+
+  width: 120px;
+}
+
+.btn:hover {
+  background-color: aliceblue;
+  color: black;
+}
+
+.servicecontent {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #eaeaea;
+  height: 150px;
+  padding: 0 20px;
+}
+
+.servicecontenttext {
+  display: flex;
+  flex-direction: row;
+}
+
+.text {
+  /* width: 407px; */
+  padding: 5px;
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333333;
+  /* height: 500px; */
+  padding: 20px;
+}
+
+.ourservices {
+  /* border: 2px blanchedalmond solid; */
+  /* height: 450px; */
+  width: 250px;
+  margin: 20px 10px 10px 12px;
+  text-align: center;
+  background-color: white;
+}
+
+.imgsize {
+  width: 250px;
+  height: 215px;
+}
+
+.headline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* height: 200px; */
+  /* margin: 42px 0 0 0; */
+  font-size: 20px;
+  padding: 25px;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  color: #eaeaea;
+}
+
+.contact {
+  /* border: 2px solid black; */
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  /* margin: 2px; */
+}
+
+.us {
+  background-color: #268fd4;
+}
+
+.aboutourcompany {
+  background-color: #333333;
+}
+
+.contacttext {
+  margin: 20px;
+}
