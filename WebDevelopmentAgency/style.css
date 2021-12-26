@@ -82,6 +82,13 @@ body {
   background-color: #333333;
   /* height: 500px; */
   padding: 20px;
+  overflow: scroll;
+}
+
+@media screen and (max-width: 976px) {
+  .services {
+    justify-content: unset;
+  }
 }
 
 .ourservices {
