@@ -1,5 +1,59 @@
 const menu = [
     {
+        id: 30,
+        title: "Cocktails Project",
+        link: 'https://cocktails-projectreact.netlify.app/',
+        img: "./project-images/item-30.png",
+    },
+    {
+        id: 31,
+        title: "Cart React Redux Project",
+        link: 'https://cart-react-reduxapp.netlify.app/',
+        img: "./project-images/item-31.png",
+    },
+    {
+        id: 32,
+        title: "ToDo React Project",
+        link: 'https://todo-reactapp-project.netlify.app/',
+        img: "./project-images/item-32.png",
+    },
+    {
+        id: 33,
+        title: "Movies React Project",
+        link: 'https://movies-reactapplication.netlify.app/',
+        img: "./project-images/item-33.png",
+    },
+    {
+        id: 34,
+        title: "React Routing Project",
+        link: 'https://react-routingproject.netlify.app/',
+        img: "./project-images/item-34.png",
+    },
+    {
+        id: 35,
+        title: "UserName Age React Project",
+        link: 'https://username-react-project.netlify.app/',
+        img: "./project-images/item-35.png",
+    },
+    {
+        id: 36,
+        title: "Bank Balance Redux Project",
+        link: 'https://bank-balance-redux-app.netlify.app/',
+        img: "./project-images/item-36.png",
+    },
+    {
+        id: 37,
+        title: "Login Page with ToDo App Project",
+        link: 'https://login-page-with-todo-app.netlify.app/',
+        img: "./project-images/item-37.png",
+    },
+    {
+        id: 38,
+        title: "Text Utility React Project",
+        link: 'https://text-utility-react-app.netlify.app/',
+        img: "./project-images/item-38.png",
+    },
+    {
         id: 1,
         title: "Shoe Store",
         link: '/shoe-store',
@@ -173,62 +227,6 @@ const menu = [
         link: '/VideoPlayer',
         img: "./project-images/item-29.png",
     },
-    {
-        id: 30,
-        title: "Cocktails Project",
-        link: 'https://cocktails-projectreact.netlify.app/',
-        img: "./project-images/item-30.png",
-    },
-    {
-        id: 31,
-        title: "Cart React Redux Project",
-        link: 'https://cart-react-reduxapp.netlify.app/',
-        img: "./project-images/item-31.png",
-    },
-    {
-        id: 32,
-        title: "ToDo React Project",
-        link: 'https://todo-reactapp-project.netlify.app/',
-        img: "./project-images/item-32.png",
-    },
-    {
-        id: 33,
-        title: "Movies React Project",
-        link: 'https://movies-reactapplication.netlify.app/',
-        img: "./project-images/item-33.png",
-    },
-    {
-        id: 34,
-        title: "React Routing Project",
-        link: 'https://react-routingproject.netlify.app/',
-        img: "./project-images/item-34.png",
-    },
-    {
-        id: 35,
-        title: "UserName Age React Project",
-        link: 'https://username-react-project.netlify.app/',
-        img: "./project-images/item-35.png",
-    },
-    {
-        id: 36,
-        title: "Bank Balance Redux Project",
-        link: 'https://bank-balance-redux-app.netlify.app/',
-        img: "./project-images/item-36.png",
-    },
-    {
-        id: 37,
-        title: "Login Page with ToDo App Project",
-        link: 'https://login-page-with-todo-app.netlify.app/',
-        img: "./project-images/item-37.png",
-    },
-    {
-        id: 38,
-        title: "Text Utility React Project",
-        link: 'https://text-utility-react-app.netlify.app/',
-        img: "./project-images/item-38.png",
-    },
-
-    
 ];
 
 const addHtml = function (img, name, link) {
