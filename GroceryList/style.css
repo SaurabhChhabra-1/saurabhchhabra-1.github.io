@@ -1,0 +1,126 @@
+body {
+  font-family: serif;
+  margin: 0px;
+  background-color: #f1f5f8;
+}
+
+.main-container {
+  box-shadow: 3px 3px 15px -2px #888888;
+  border-radius: 5px;
+  border-color: white;
+  width: fit-content;
+  margin: auto;
+  padding: 40px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: fit-content;
+}
+.main-container h2 {
+  text-align: center;
+  color: #063251;
+  letter-spacing: 3px;
+}
+.input {
+  background-color: #f1f5f8;
+  border: none;
+  border-radius: 5px 0px 0 5px;
+  width: 19rem;
+  padding: 0.25rem 9px;
+}
+
+.button {
+  border: none;
+  padding: 0.25rem;
+  margin-left: -4px;
+  border-radius: 0px 5px 5px 0;
+  background-color: #a5d5f8;
+  cursor: pointer;
+  width: 70px;
+}
+.button:hover {
+  background-color: #49a6e9;
+  color: white;
+  transition: 0.5s;
+}
+.input-box {
+  margin-top: 20px;
+}
+.grocery {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  margin: 5px 0;
+  padding: 0.25rem 9px;
+  border-radius: 5px;
+  /* width: calc(19rem +15.2px); */
+}
+
+.grocery:hover {
+  background-color: #f1f5f8;
+  transition: 0.5s;
+  /* columns: ; */
+}
+.grocery:hover h4 {
+  color: hsl(210deg 22% 49%);
+  transition: 0.5s;
+}
+
+.grocery h4 {
+  margin: 0;
+  color: hsl(209deg 61% 16%);
+  text-transform: capitalize;
+}
+.edit,
+.delete {
+  margin-block-start: none;
+  margin-block-end: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.edit {
+  color: hsl(125deg 71% 66%);
+}
+
+.edit:hover {
+  color: hsl(125deg 67% 44%);
+}
+
+.delete {
+  color: hsl(0deg 71% 66%);
+}
+.delete:hover {
+  color: hsl(0deg 67% 44%);
+}
+
+.clear {
+  text-align: center;
+  color: hsl(0deg 71% 66%);
+  font-size: 12px;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+.clear:hover {
+  color: hsl(0deg 67% 44%);
+}
+
+.message {
+  text-align: center;
+  border-radius: 3px;
+  width: 100%;
+  font-size: x-small;
+  letter-spacing: 4px;
+}
+
+.correct {
+  color: hsl(125deg 95% 11%);
+  background-color: hsl(125deg 77% 86%);
+}
+
+.wrong {
+  background-color: hsl(0deg 71% 66%);
+  color: hsl(0deg 67% 44%);
+}

@@ -1,0 +1,77 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: fantasy;
+}
+p {
+  margin: 0;
+}
+.header {
+  text-align: center;
+  margin-top: 10px;
+  /* width: 40px; */
+}
+h2 {
+  text-decoration: underline orangered 2px;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  margin-left: 20px;
+  background: none;
+  color: inherit;
+  border: 2px solid orangered;
+  padding: 10px;
+  border-radius: 13px;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+.btn:hover {
+  background-color: orangered;
+  color: black;
+}
+
+.content-box {
+  /* height: 100vh; */
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.items {
+  border: 2px solid white;
+  width: 40%;
+  height: fit-content;
+  margin-top: 30px;
+  box-sizing: border-box;
+  padding: 10px;
+  display: flex;
+}
+
+.items img {
+  width: 140px;
+  height: 160px;
+  border: 2px solid white;
+  margin-right: 5px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.info {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 2px solid white;
+  text-transform: capitalize;
+}
+
+.bio {
+  text-align: center;
+  margin-top: 15px;
+}

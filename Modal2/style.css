@@ -1,0 +1,46 @@
+body {
+  background-image: url(https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg);
+  height: 100vh;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: inherit;
+}
+
+.modal-box {
+  background-color: brown;
+  border: 2px solid black;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  text-align: center;
+  /* display: flex;
+  align-items: center; */
+  /* justify-content: center; */
+  z-index: 1;
+}
+.modal-box2 {
+  background-color: pink;
+  border: 2px solid black;
+  height: 400px;
+  width: 400px;
+  text-align: center;
+  z-index: 7;
+}
+
+.hide {
+  display: none;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 5;
+}
